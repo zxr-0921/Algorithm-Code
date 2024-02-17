@@ -11,6 +11,7 @@ public class 阶乘求和 {
 		long res = 0, s = 1;
 		for (int i = 1; i <= 40; i++) {
 			// 循环计算
+			// 正向计算
 			s = s * i % MOD;
 			res = (res + s) % MOD;
 		}
