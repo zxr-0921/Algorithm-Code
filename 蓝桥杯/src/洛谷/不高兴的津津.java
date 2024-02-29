@@ -15,9 +15,6 @@ public class 不高兴的津津 {
 		}
 		int max = 8;
 		int flag = 0;
-		for(int h : hs) {
-			System.out.print(h);
-		}
 		for (int i = 0; i < hs.length; i++) {
 			if(hs[i]>max) {
 				max = hs[i];
